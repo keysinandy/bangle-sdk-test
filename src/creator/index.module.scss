@@ -1,0 +1,26 @@
+.container {
+  width: 60vw;
+  margin-left: 20vw;
+  // border-left: 1px #3333 solid;
+  // border-right: 1px #3333 solid;
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1890ff;
+  }
+  .header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .item {
+    display: flex;
+    padding: 20px 30%;
+    * {
+      margin-left: 20px;
+    }
+  }
+}
